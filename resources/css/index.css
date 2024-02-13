@@ -64,7 +64,7 @@ button:hover    {
     margin-left: 100px;
     margin-right: 20px;
     height: 40px;
-    width: 400px;
+    width: auto;
     padding: 10px 20px;
     background-color: azure;
     border-radius: 30px;
@@ -88,6 +88,7 @@ h1  {
     font-size: 150px;
     text-align: center;
     margin: 150px auto;
+    width: auto;
 }
 
 p   {
