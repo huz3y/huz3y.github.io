@@ -15,6 +15,7 @@ li, a, button, input    {
 header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 20px 7%;
     background-color: cadetblue;
@@ -102,4 +103,28 @@ main    {
     background-color: blanchedalmond;
     padding: 100px;
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .nav li {
+        padding: 10px 5px;
+    }
+    .box, .logo {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    main {
+        padding: 50px 20px;
+    }
+    h1 {
+        font-size: 50px;
+        margin: 50px auto;
+    }
+    p {
+        font-size: 20px;
+    }
 }
