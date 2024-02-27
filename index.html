@@ -1,60 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Traffic Butter</title>
-        <link href="./resources/css/index.css" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <img class="logo" src="./resources/images/logo.svg" alt="logo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./resources/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./resources/css/styles.css" type="text/css">
+    <title>Traffic Butter</title>
+</head>
+<body>
+    <header>
+        <!-- Start of top_panel that includes navbar and page logo
+        Page responsivness for this part will be done separately in css-->
+        <div class="top_panel">
+            <div class="logo_container">
+                <h2 id="logo">Traffic Butter</h2>
+            </div>
             <nav>
-                <ul class="nav">
+                <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Project</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <input class="box" type="text" placeholder="search">
-            <a href="#"><button>Search</button></a>
-        </header>
-        <main>
-            <div class="grid-container">
-                <div class="heading card">
-                    <h1>Traffic Butter</h1>
-                    <h2>Spread the joy of smooth traffic flow with Traffic Butter.</h2>
-                </div>
-                <div class="intro card">
-                    <h2>Introducing Traffic Butter: Spread Efficiency Across Urban Roads</h2>
-                    <p>Welcome to Traffic Butter, where the smooth flow of traffic is not just a dream but a reality. 
-                    Dive into an innovative web app powered by Python data science, designed to revolutionize how we navigate the bustling streets of our cities.</p>
-                </div>
-                <div class="features features_1 card">
-                    <h2>Butter-Smooth Simulation</h2>
-                    <p>Immerse yourself in realistic traffic simulations that mimic real-world conditions, allowing you to understand and optimize traffic flow effortlessly.</p>
-                </div>
-                <div class="features features_2 card">
-                    <h2>Predictive Spreading</h2>
-                    <p>Harness predictive analytics to anticipate congestion hotspots, reroute traffic, and ensure a smooth journey for commuters.</p>
-                </div>
-                <div class="features features_3 card">
-                    <h2>Interactive Spread Visualization</h2>
-                    <p>Visualize traffic dynamics in real-time, enabling you to analyze patterns and make data-driven decisions on the fly.</p>
-                </div>
-                <div class="features features_4 card">
-                    <h2>Spread Your Way</h2>
-                    <p>Customize simulations to match the unique characteristics of any city or road network, empowering you to tailor solutions to specific urban challenges.</p>
-                </div>
-                <div class="features features_5 card">
-                    <h2>Spread Joy with Ease</h2>
-                    <p>Enjoy a user-friendly interface that makes navigating Traffic Butter a breeze, whether you're a traffic engineer, urban planner, or curious enthusiast.</p>
-                </div>
-                <div class="end card">
-                    <h2>Spread Efficiency, Spread Joy</h2>
-                    <p>In a world where traffic jams are the norm, Traffic Butter emerges as a beacon of hope, offering a delectable solution to urban congestion. Join us in spreading efficiency, reducing commute times, and enhancing the quality of life in our cities.</p>
+        </div>
+        <!--End of top_panel that includes navbar and page logo
+        Page responsivness for this part has been done separately in css -->
+
+        <!-- Start of heading that includes heading and background image
+        Page responsivness for this part will be done in this section -->
+        <div class="background_image">
+            <div class="heading_container">
+                <div class="shadow">
+                    <div class="heading">
+                        <h1>Welcome to Traffic Butter</h1>
+                        <h2>Spread the joy of smooth traffic flow with Traffic Butter.</h2>
+                    </div>
                 </div>
             </div>
-        </main>
-    </body>
+        </div>
+    </header>
+    <!--End of heading that includes heading and background image
+        Page responsivness for this part has been done separately in css -->
+
+    <main>
+        <!-- Start of intro that includes the introduction of the site
+        Page responsivness for this part will be done separately in css -->
+        <section class="intro">
+            <div class="intro_container">
+                <h2>Introducing Traffic Butter: Spread Efficiency Across Urban Roads</h2>
+                <p>Welcome to Traffic Butter, where the smooth flow of traffic is not just a dream but a reality.
+                 Dive into an innovative web app powered by Python data science, designed to revolutionize how 
+                 we navigate the bustling streets of our cities.</p>
+            </div>
+        </section>
+        <!--End of intro that includes the introduction of the site
+        Page responsivness for this part has been done separately in css -->
+
+        <!-- Start of features that includes the main aspect of the site
+        Page responsivness for this part will be done separately in css -->
+        <section class="feature_container">
+            <div class="feature_1 feature">
+                <img class="feature_image" src="./resources/images/photo_1.png">
+                <h2>Butter-Smooth Simulation</h2>
+                <p>Immerse yourself in realistic traffic simulations that mimic real-world conditions, 
+                    allowing you to understand and optimize traffic flow effortlessly.</p>
+            </div>
+            <div class="feature_2 feature">
+                <img class="feature_image" src="./resources/images/photo_2.png">
+                <h2>Predictive Spreading</h2>
+                <p>Harness predictive analytics to anticipate congestion hotspots, 
+                    reroute traffic, and ensure a smooth journey for commuters.</p>
+            </div>
+            <div class="feature_3 feature">
+                <img class="feature_image" src="./resources/images/photo_3.png">
+                <h2>Interactive Spread Visualization</h2>
+                <p>Visualize traffic dynamics in real-time, enabling you to analyze patterns 
+                    and make data-driven decisions on the fly.</p>
+            </div>
+            <div class="feature_4 feature">
+                <img class="feature_image" src="./resources/images/photo_4.png">
+                <h2>Spread Your Way</h2>
+                <p>Customize simulations to match the unique characteristics of any city or road network, 
+                    empowering you to tailor solutions to specific urban challenges.</p>
+            </div>
+            <div class="feature_5 feature">
+                <img class="feature_image" src="./resources/images/photo_5.png">
+                <h2>Spread Joy with Ease</h2>
+                <p>Enjoy a user-friendly interface that makes navigating Traffic Butter a breeze, 
+                    whether you're a traffic engineer, urban planner, or curious enthusiast.</p>
+            </div>
+        </section>
+        <!--End of features that includes the main aspect of the site
+        Page responsivness for this part has been done separately in css -->
+
+        <!-- Start of outro that includes a conclusion to the main part
+        Page responsivness for this part will be done separately in css -->
+        <section class="outro">
+            <div class="outro_container">
+                <h2>Spread Efficiency, Spread Joy</h2>
+                <p>In a world where traffic jams are the norm, Traffic Butter emerges as a beacon of hope, 
+                offering a delectable solution to urban congestion. Join us in spreading efficiency, 
+                reducing commute times, and enhancing the quality of life in our cities.</p>
+            </div>
+        </section>
+        <!-- End of outro that includes a conclusion to the main part
+        Page responsivness for this part has been done separately in css -->
+
+        <!-- Start of team that showcase the team that make up the company
+        Page responsivness for this part will be done separately in css -->
+        <section class="team_container">
+            <div class="member">
+                <img class="member_image" src="./resources/images/ceo.png">
+                <h2>Alex Lasker</h2>
+                <p>C.E.O. - Founder and Principal Investor</p>
+            </div>
+            <div class="member">
+                <img class="member_image" src="./resources/images/resercher.png">
+                <h2>Lisa Fischer</h2>
+                <p>Partner - Research & Development</p>
+            </div>
+            <div class="member">
+                <img class="member_image" src="./resources/images/marketing.png">
+                <h2>Omar Carlsen</h2>
+                <p>Partner - Partnerships & Marketing</p>
+            </div>
+        </section>
+        <!--End of team that showcase the team that make up the company
+        Page responsivness for this part has been done separately in css -->
+    </main>
+    <footer>
+        <section class="foot">
+            <h2>Traffic Butter</h2>
+            <h3>admin@trafficbutter.com</h3>
+            <h3>+960 7613879</h3>
+        </section>
+        <div id="copyright">
+            <small>&copy; Copyright Traffic Butter</small>
+        </div>
+    </footer>
+</body>
 </html>
