@@ -294,49 +294,6 @@ Page responsivness for this part will be done separately in css */
     font-size: 1rem;
 }
 
-
-.team_container  {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.team_container h2  {
-    padding: 1rem;
-    font-family: Garamond, serif;
-    font-size: 1.5rem;
-}
-
-.member    {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
-    min-height: 15rem;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 1rem;
-    margin: 1rem;
-    overflow: hidden;
-    background-color: gray;
-    text-align: center;
-}
-
-.member img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-.member h2 {
-    padding: 0.5rem;
-}
-
-.member p  {
-    padding: 0.5rem;
-}
-
 @media only screen and (max-width: 578px)   {
     .team_container  {
         flex-direction: column;
