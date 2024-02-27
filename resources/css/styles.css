@@ -294,18 +294,6 @@ Page responsivness for this part will be done separately in css */
     font-size: 1rem;
 }
 
-@media only screen and (max-width: 578px)   {
-    .team_container  {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .member    {
-        width: 80%;
-        min-height: 20rem;
-    }
-}
 
 footer  {
     background-color: black;
@@ -317,11 +305,6 @@ footer  {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-}
-
-.foot h3   {
-    color: aliceblue;
-    font-weight: 500;
 }
 
 .foot h2    {
